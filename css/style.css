@@ -1,0 +1,205 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 2px solid red; */
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.navbar a i,
+.navbar a {
+    color: black;
+}
+
+.buy:hover {
+    background-color: #eb6420;
+}
+
+.navbar a i:hover,
+.navbar a:hover {
+    color: #eb6420
+}
+
+.first-cap {
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.first-cap h1 {
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+.first-cap button {
+    margin-right: 100px;
+    padding: 10px 30px;
+}
+
+.sec-cap button {
+    padding: 10px 30px;
+}
+
+.third-cap {
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.third-cap h6 {
+    margin-right: 100px;
+}
+
+.third-cap h1 {
+    margin-left: 120px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.third-cap button {
+    margin-right: 110px;
+    padding: 10px 30px;
+}
+
+/* .ui,
+.five {
+    width: 102%;
+} */
+
+.addCard {
+    margin-left: 90px;
+    border-radius: 3px;
+}
+
+.main {
+    cursor: grab;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.inmain {
+    background-color: white;
+}
+
+.inmain {
+    position: absolute;
+    top: 35%;
+    left: 35%
+}
+
+.first .row div img:hover {
+    color: rgba(235, 100, 32, 0.5);
+    cursor: pointer;
+}
+
+.five {
+    width: 102%;
+    height: 76vh;
+    transition: 1s;
+    background-color: #3f4041;
+}
+
+.shop {
+    background-color: white;
+}
+
+.five div a {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+button {
+    background-color: black;
+}
+
+a:hover {
+    transition: 1s;
+    color: #eb6420 !important;
+}
+
+.four {
+    cursor: default;
+}
+.shop:hover,
+button:hover {
+    transition: 1s;
+    color: white;
+    background-color: #eb6420;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: transparent;
+}
+
+.main .handbag:hover {
+    background-color: rgba(255, 255, 255, 0.852);
+}
+
+main .handbag:hover {
+    background-color: rgba(255, 255, 255, 0.852);
+}
+
+.email {
+    padding: 10.5px;
+    margin: - 60px;
+}
+
+/* Contact us */
+
+.contact {
+    background-color: rgba(92, 89, 77, 0.637);
+    margin: 50px auto;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color: #666151b2;
+}
+
+.submit:hover {
+    background-color: #c4c3beb2;
+}
+
+.user {
+    text-align: center;
+    margin: 20% auto
+}
+
+.log {
+    background-color: #edf1f6;
+    margin: 90px;
+}
+
+.sing {
+    text-align: start;
+    border-bottom: 2px solid rgb(231, 229, 229);
+}
+
+.acc {
+    margin-left: 30px;
+    padding-left: 50px;
+    margin-top: -70px;
+}
+
+.car{
+    position: relative;
+}
+.count {
+    position:absolute;
+    bottom: 6px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:1px 2px;
+}
+/* log */
+.error {
+color: red;
+overflow: hidden;
+font-size: 12px;
+}
