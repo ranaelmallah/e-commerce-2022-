@@ -15,17 +15,37 @@
     <!-- css file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<nav class="navbar sticky-top  bg-light bg-opacity-75  ">
-    <div class="d-flex ps-4  ">
-        <a href="index.html" class="me-4 text-decoration-none">HOME</a>
-        <a href="products.html" class="me-4 text-decoration-none ">PRODUCTS</a>
-        <a href="contact us.html" class="text-decoration-none"> CONTACT US</a>
-    </div>
-    <img src="imges/logo_41be5bb0-ee12-4cb7-8ae7-3267b91b49e3_300x300.webp" width="110px" alt="">
-    <div class="d-flex">
-        <a href="login.html" class="me-4"><i class="fa-solid fa-user  border-end pe-4 "></i></a>
-        <a href="card.html" class="me-4 "><i class="fa-solid car fa-cart-shopping border-end pe-4  "><span class="count"></span></i></a>
-        <a href=""> <i class="fa-solid fa-magnifying-glass  me-5  "></i></a>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white outline-danger">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse   " id="navbarNav" >
+            <ul class="navbar-nav ">
+                <li class='nav-item m-2'>
+                    <a href="index.html" class=" text-decoration-none fw-bold">HOME <span class="sr-only "></span></a></li>
+                <li class="nav-item  m-2">
+                    <a href="products.html" class=" text-decoration-none  fw-bold">PRODUCTS</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a href="contact us.html" class="text-decoration-none fw-bold"> CONTACT US</a>
+                </li>
+            </ul>
+            <div class="m-auto">
+                
+                <a class="navbar-brand justify-content-center" routerLink="/"> <img src='https://kling-theme.myshopify.com/cdn/shop/files/logo_41be5bb0-ee12-4cb7-8ae7-3267b91b49e3_300x300.png?v=1614339246'  width='100' /></a>
+            </div>
+        </div>
+        <div class="d-flex mt-1 collapse  ">
+            <a href="card.html" class="me-4 "><i class="fa-solid car fs-5 fa-cart-shopping  "></i></a>
+            <div class="d-none d-lg-flex align-items-center">
+                <a href="login.html" class=""><i class="fa-solid fa-user fs-5   pe-4 "></i></a>
+            <a href=""> <i class="fa-solid fa-magnifying-glass fs-5 me-5  "></i></a>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -33,58 +53,54 @@
     <h1 class="text-center my-3  "> MY PRODUCTS</h1>
 </section>
 <!-- 5th sec -->
-<section class=" five text-light row p-5  ">
-    <div class="col-lg-2 col-md-6 col-sm-6 my-5 mp-5 ">
-        <img class="mb-3 " src="//cdn.shopify.com/s/files/1/0461/9036/2778/files/light-logo_2x_5a4ab4f7-24bb-4dbe-aa42-0a05e7b9848f_x44@2x.png?v=1614397607 " alt="Kling-Theme " style="height:44px ">
-        <a href="support@example.com " class=" text-center text-decoration-none ">support@example.com</a>
-        <div class="my-2 text-center ">
-            <a href=" "><i class=" m-1 fa-brands fa-facebook " role="button "></i></a>
-            <a href=" "><i class=" m-1 fa-brands fa-pinterest " role="button "></i></a>
-            <a href=" "><i class=" m-1 fa-brands fa-instagram " role="button "></i></a>
+
+<footer class="five text-light row p-5  m-auto">
+    <div class="col-lg-3 col-md-6 col-sm-6 my-5">
+        <img class="" src="//cdn.shopify.com/s/files/1/0461/9036/2778/files/light-logo_2x_5a4ab4f7-24bb-4dbe-aa42-0a05e7b9848f_x44@2x.png?v=1614397607" alt="Kling-Theme" style="height:44px;">
+        <a href="mailto:support@example.com" class="text-center text-decoration-none">support@example.com</a>
+        <div class="my-2 text-center">
+            <a href="#"><i class=" fa-brands fa-facebook" role="button"></i></a>
+            <a href="#"><i class=" fa-brands fa-pinterest" role="button"></i></a>
+            <a href="#"><i class=" fa-brands fa-instagram" role="button"></i></a>
         </div>
     </div>
-    <div class="mx-3 py-5  col-lg-2 col-md-4 col-sm-4">
-        <h5 class="fw-bold pb-2 ">INFORMATION</h5>
-        <div class="mb-2 "><a href=" " class=" fs-6 text-decoration-none "> SEARCH TERMS</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 pb-5 text-decoration-none ">HOLIDAYS</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">REFUND & RETURN</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">FAQ & HELP</a> </div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">DELIVERY INFORMATION</a></div>
-
+    <div class="mx-3 py-5 col-lg-3 col-md-4 col-sm-4">
+        <h5 class="fw-bold pb-2">INFORMATION</h5>
+        <div class="mb-2"><a href="#" class=" text-decoration-none">SEARCH TERMS</a></div>
+        <div class="mb-2"><a href="#" class=" text-decoration-none">HOLIDAYS</a></div>
+        <div class="mb-2"><a href="#" class=" text-decoration-none">REFUND & RETURN</a></div>
+        <div class="mb-2"><a href="#" class=" text-decoration-none">FAQ & HELP</a></div>
+        <div class="mb-2"><a href="#" class=" text-decoration-none">DELIVERY INFORMATION</a></div>
     </div>
-    <div class="mx-1 py-5 col-lg-2 col-md-6 col-sm-6 ">
-        <h5 class="fw-bold pb-2 SERVICE ">CUSTOMER SERVICE</h5>
-        <div class="mb-2 "><a href=" " class=" fs-6 text-decoration-none ">MYACCOUNT</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 text-decoration-none ">CONTACT US</a></div>
-        <div class="mb-2 "><a href=" " class="fs-6 text-decoration-none ">SHIPPING & RETURNS</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 text-decoration-none ">STORE LOCATOR</a></div>
-        <div class="mb-2 "> <a href=" " class=" fs-6 text-decoration-none ">SITE MAP</a></div>
+    <div class="mx-1 py-5 col-lg-3 col-md-6 col-sm-6">
+        <h5 class="fw-bold pb-2">CUSTOMER SERVICE</h5>
+        <div class=""><a href="#" class=" text-decoration-none">MY ACCOUNT</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">CONTACT US</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">SHIPPING & RETURNS</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">STORE LOCATOR</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">SITE MAP</a></div>
     </div>
-    <div class="mx-1  ms-3 py-5 col-lg-2 col-md-4 col-sm-4">
-        <h5 class="fw-bold pb-2 ">OUR HISTORY</h5>
-        <div class="mb-2 "><a href=" " class=" fs-6 text-decoration-none "> OUR STORY</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 pb-5 text-decoration-none ">OUR BLOG</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">AWARDS</a></div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">AMBASSADORS & AFFILIATESNFORMATION</a>
-        </div>
-        <div class="mb-2 "><a href=" " class=" fs-6 my-5 text-decoration-none ">CLIENTS</a></div>
-
-    </div>
-   
-</section>
-<footer class="bg-dark text-light p-2 ">
-    <div class="d-flex justify-content-between ">
-        <h6 class="p-2 ">@ 2022 Kling-Rana Elmallah</h6>
-        <div class="p-2 ">
-            <i class="fa-brands fa-cc-visa " role="button "></i>
-            <i class="fa-brands fa-cc-mastercard " role="button "></i>
-            <i class="fa-brands fa-cc-amex " role=" button "></i>
-            <i class="fa-brands fa-cc-paypal " role="button "></i>
-            <i class="fa-brands fa-cc-discover " role="button "></i>
-
-        </div>
+    <div class="mx-1 ms-3 py-5 col-lg-2 col-md-4 col-sm-4">
+        <h5 class="fw-bold pb-2">OUR HISTORY</h5>
+        <div class=""><a href="#" class=" text-decoration-none">OUR STORY</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">OUR BLOG</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">AWARDS</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">AMBASSADORS & AFFILIATES</a></div>
+        <div class=""><a href="#" class=" text-decoration-none">CLIENTS</a></div>
     </div>
 </footer>
+<div class="bg-dark text-light last">
+    <div class="d-flex justify-content-around ">
+        <h6 class="p-2">@ 2022 Kling-Rana Elmallah</h6>
+        <div class="p-2">
+            <i class="fa-brands fa-cc-visa" role="button"></i>
+            <i class="fa-brands fa-cc-mastercard" role="button"></i>
+            <i class="fa-brands fa-cc-amex" role="button"></i>
+            <i class="fa-brands fa-cc-paypal" role="button"></i>
+            <i class="fa-brands fa-cc-discover" role="button"></i>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>

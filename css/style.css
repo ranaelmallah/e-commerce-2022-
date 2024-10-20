@@ -158,28 +158,15 @@ main .handbag:hover {
     border-radius: 8px;
 }
 
-.submit {
-    background-color: #666151b2;
-}
 
-.submit:hover {
-    background-color: #c4c3beb2;
-}
 
 .user {
     text-align: center;
     margin: 20% auto
 }
 
-.log {
-    background-color: #edf1f6;
-    margin: 90px;
-}
 
-.sing {
-    text-align: start;
-    border-bottom: 2px solid rgb(231, 229, 229);
-}
+
 
 .acc {
     margin-left: 30px;
